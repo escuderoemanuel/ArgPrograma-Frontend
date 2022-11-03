@@ -1,0 +1,23 @@
+.bodyStyle {
+  font-family: "Lato", "Ubuntu", sans-serif;
+  color: #001e31;
+  border: 2px solid #001e31;
+  border-radius: 5px;
+  margin: 1rem 0;
+  width: 90vw;
+  margin-left: 4%;
+}
+.headerStyle {
+  background-color: #acafb4;
+}
+
+.subtitleStyle {
+  background-color: #001e31;
+  color: #a2f91d;
+  border-radius: 25px;
+}
+
+.footerStyle {
+  background-color: #001e31;
+  color: lightgray;
+}
