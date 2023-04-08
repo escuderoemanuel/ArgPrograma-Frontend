@@ -1,0 +1,16 @@
+<div class='position-relative' *ngFor="let skill of skills">
+  <div class='position-absolute top-0 end-0 '>
+    <i class="penAcercaDe fa-solid fa-pencil "></i>
+    <i class="fa-solid fa-xmark"></i>
+  </div>
+  <div class="mb-3">
+    <div class="text-start text-light progress-bar bg-primary rounded-start" role="progressbar"
+      [style.width.%]='skill.porcentaje' aria-label="20px high" aria-valuenow="25" aria-valuemin="0"
+      aria-valuemax="100">
+      <div class='ms-5'>
+        {{skill.nombre}}
+        {{skill.porcentaje}}%
+      </div>
+    </div>
+  </div>
+</div>

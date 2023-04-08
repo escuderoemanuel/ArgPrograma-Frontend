@@ -1,0 +1,24 @@
+<div class='proyectos container-fluid'>
+  <h3>Proyectos</h3>
+
+  <div class=' d-flex flex-wrap gap-4 justify-content-center'>
+    <div class="card mb-3" style="max-width: 540px;" *ngFor="let proyecto of proyectos">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src={{proyecto.img}} class="img-fluid rounded-start" alt="Imagen del proyecto RetroPlace Store">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{proyecto.title}}</h5>
+            <p class="card-text mb-0"><small class="text-body-secondary ">{{proyecto.type}}</small>
+            </p>
+            <p class="card-text mb-1"> {{proyecto.tools}} </p>
+            <a href={{proyecto.urlRepo}} nonopener nonreferrer target='_blank'><button type="button"
+                class="btn btn-primary me-1">Repository</button></a>
+            <a href={{proyecto.urlDemo}} nonopener nonreferrer target='_blank'><button type="button"
+                class="btn btn-dark">Deploy</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

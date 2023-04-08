@@ -1,0 +1,18 @@
+<div class="educacion  container-fluid">
+  <h3 class='mb-4'>Educación</h3>
+  <ul>
+
+    <li *ngFor="let edu of educacion">
+      <div class='position-relative'>
+        <div class='position-absolute top-0 end-0 '>
+          <i class="penAcercaDe fa-solid fa-pencil "></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <h5> {{edu.titulo}} </h5>
+        <h6>{{edu.lugar}}</h6>
+        <p class='mb-0'>Fecha: {{edu.fecha}}</p>
+        <p>{{edu.tecnologias}}</p>
+      </div>
+    </li>
+  </ul>
+</div>

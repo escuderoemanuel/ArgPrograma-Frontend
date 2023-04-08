@@ -1,0 +1,25 @@
+<!-- EXPERIENCIA -->
+<div class="experiencia container-fluid">
+  <h3 class='mb-4'>Experiencia Laboral</h3>
+  <div>
+
+    <div class='position-relative d-flex mb-4' *ngFor="let experiencia of experiencias">
+      <div class='position-absolute top-0 end-0'>
+        <i class="penAcercaDe fa-solid fa-pencil "></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <i class='{{experiencia.icon}}'></i>
+      <div>
+        <h5>{{experiencia.puesto}}</h5>
+        <p class='mb-0'>Lugar: {{experiencia.lugar}}</p>
+        <p class='mb-0'>Fecha: {{experiencia.fechaDesde}} - {{experiencia.fechaHasta}}</p>
+
+        <ul class='m-0' *ngFor="let tarea of experiencia.tareas">
+          <li class='m-0 p-0'>{{tarea}}</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</div>

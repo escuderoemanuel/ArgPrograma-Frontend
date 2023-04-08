@@ -1,0 +1,23 @@
+/* EXPERIENCIA */
+.experiencia {
+  max-width: 95vw;
+  border-radius: 15px;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.iconExperiencia {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .experiencia {
+    margin: 0.5rem;
+    font-size: 0.85em;
+  }
+
+  .iconExperiencia {
+    font-size: 25px;
+  }
+}

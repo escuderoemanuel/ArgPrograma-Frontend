@@ -1,0 +1,19 @@
+.educacion {
+  max-width: 95vw;
+  border-radius: 15px;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.iconEducacion {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .educacion {
+    font-size: 0.85em;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}

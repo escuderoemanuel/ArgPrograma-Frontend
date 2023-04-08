@@ -1,0 +1,71 @@
+.divBannerDos {
+  margin: 1rem;
+  margin-bottom: 0;
+  border-radius: 15px;
+  background-image: url(../../../../assets/profile/banner.jpg);
+  background-repeat: none;
+  background-size: cover;
+  min-height: 200px;
+  width: 95vw;
+}
+
+.fa-icon-light {
+  color: white;
+}
+
+.perfilImg {
+  position: relative;
+  width: 150px;
+  margin-top: -80px;
+  margin-left: 3rem;
+}
+
+.penFotoPerfil {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 175px;
+  z-index: 1;
+}
+
+.nombreTitulo {
+  position: relative;
+  margin-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .divBannerDos {
+    margin: 0.5rem 0.5rem 0rem;
+    min-height: 100px;
+  }
+
+  .perfilImg {
+    position: relative;
+    width: 90px;
+    margin-top: -50px;
+    margin-left: 0.5rem;
+  }
+
+  .penFotoPerfil {
+    margin-top: 5px;
+    margin-left: 80px;
+  }
+
+  .nombreTitulo {
+    font-size: 0.8em;
+    position: relative;
+    margin-right: 2rem;
+  }
+
+  h1,
+  h5 {
+    margin: 0;
+    margin-right: 2rem;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+}
